@@ -1,4 +1,4 @@
-#Directions for using tweetGuesser
+# Directions for using the TweetGuesser program
 When run, it will prompt the user to input two twitter handles, one at a time. When entering the twitter handles please make sure they are correct and do not include @. If you would like to play the game as originally intended simply input 'kanyewest' first and then 'elonmusk'.
 Once both twitter handles have been entered, using the streaming tools found in the tweepy package, the program will begin to load in the most recent 3200 tweets from each user, filtering out replies, tweets with media, and tweets with another users handle in them. This may take a moment.
 Once all tweets have been loaded in the the user will be displayed a tweet and have a change to guess which person tweeted it when prompted.
