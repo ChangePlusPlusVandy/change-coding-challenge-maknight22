@@ -56,8 +56,8 @@ account_list = [input("Please put in the handle of the first user you would like
                       "'elonmusk': ")]
 
 twList = []  # here we will store the tweets
-twList = getTweets(account_list[0], twList)  # load in kanye's tweets
-twList = getTweets(account_list[1], twList)  # load in elon's tweets
+twList = getTweets(account_list[0], twList)  # load in first account tweets
+twList = getTweets(account_list[1], twList)  # load in second account tweets
 print("After filtering " + str(len(twList)) + " tweets have been loaded in.")
 print()
 
