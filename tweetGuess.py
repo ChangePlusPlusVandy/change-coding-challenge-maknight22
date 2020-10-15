@@ -7,10 +7,7 @@ import random
 import tweepy as tw
 
 # These are my private twitter keys that allow us access to the twitter api
-consumer_key = 'g9qTWABheh04iobQf0WUJlaFo'
-consumer_secret = 'vqTqg9eHN0UqCrrIwdQbnx32rEvZRv7Z0v2x1BnpRjR7IeA2Qe'
-access_token = '991500266808729601-kRzQVyKzcwSkk5VGPF6ulbi11uZ7jX9'
-access_secret = '6Gm2XoFQGb6GeUDoblPSO8sxV5nZbuELUj2XBWmkT60y6'
+#Keys Redcated for privacy
 
 # we must set up our api access using OAuth
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
